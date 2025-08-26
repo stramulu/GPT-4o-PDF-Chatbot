@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+openai
+chromadb
+tiktoken
+python-dotenv
+pdfplumber
