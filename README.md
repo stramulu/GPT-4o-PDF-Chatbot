@@ -73,14 +73,18 @@ Then open your browser to `http://localhost:8501`
 
 ## 📁 Project Structure
 
+The project starts with these core files:
+
 ```
 pdfSummarizer/
 ├── app.py                 # Streamlit web interface
 ├── chatbot.py            # Main chatbot implementation
 ├── utils.py              # PDF text extraction utilities
 ├── requirements.txt      # Dependencies
-└── .chromadb/           # Vector database storage
+└── .chromadb/           # Vector database storage (created automatically)
 ```
+
+**Note**: The `.chromadb/` directory is created automatically when you first run the chatbot to store vector embeddings.
 
 ## Configuration
 
@@ -117,7 +121,7 @@ retriever = self.vectorstore.as_retriever(search_kwargs={"k": 3})
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Authors
+## Author
 
 - Shreyas Ramulu
 
