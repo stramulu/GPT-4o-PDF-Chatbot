@@ -117,6 +117,10 @@ retriever = self.vectorstore.as_retriever(search_kwargs={"k": 3})
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Authors
+
+- Shreyas Ramulu
+
 ## Acknowledgments
 
 - [LangChain](https://langchain.com/) for the RAG framework
